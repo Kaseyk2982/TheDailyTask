@@ -35,6 +35,7 @@ export default function Form({ onAddItems }) {
         value={dueDate}
         onChange={(e) => setDueDate(e.target.value)}
       />
+
       <input
         className="taskInput"
         type="text"
